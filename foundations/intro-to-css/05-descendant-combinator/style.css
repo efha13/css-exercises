@@ -1,0 +1,15 @@
+/* IF USE CLASS AS SELECTOR, USE PERIOD IN FRONT */
+.container .text {
+    background-color: paleturquoise;
+    color:rgb(39, 39, 39);
+    font-size: 20px;
+    text-align: center;
+}
+
+/* IF USE ELEMENT AS SELECTOR, DON'T USE PERIOD IN FRONT */
+/* div p {
+    background-color: paleturquoise;
+    color:rgb(39, 39, 39);
+    font-size: 20px;
+    text-align: center;
+} */
