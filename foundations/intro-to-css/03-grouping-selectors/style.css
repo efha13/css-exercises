@@ -2,3 +2,13 @@
     font-size: 28px;
     font-family: Helvetica, "Times New Roman", sans-serif;
 }
+
+.button.yes {
+    color:rgb(39, 39, 37);
+    background-color: rgb(84, 228, 84);
+}
+
+.button.no {
+    color: beige;
+    background-color: rgb(228, 84, 84);
+}
