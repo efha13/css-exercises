@@ -39,6 +39,7 @@ button {
   pointer-events: none;
   opacity: 0%;
   text-align: center;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .popup-modal p {
@@ -56,6 +57,18 @@ button {
 .popup-modal.show {
   opacity: 100%;
   pointer-events: all;
+  animation: slide-down 0.5s ease-in-out forwards;
+}
+
+@keyframes slide-down {
+  from {
+    top: 40%;
+    opacity: 0%;
+  }
+  to {
+    top: 50%;
+    opacity: 100%;
+  }
 }
 
 .backdrop.show {
