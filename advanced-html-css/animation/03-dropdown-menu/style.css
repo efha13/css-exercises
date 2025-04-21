@@ -29,4 +29,28 @@ ul.dropdown-menu li:hover {
   display: block;
 }
 
+/* MY SOLUTION */
 
+/* .dropdown-menu {
+  transform-origin: top;
+  transition: max-height 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.dropdown-container:hover .dropdown-menu {
+  max-height: 250px;
+  transform: scaleY(1.1);
+}
+
+.dropdown-menu li {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: transform 0.5s ease-in-out;
+  transform-origin: top; 
+}
+
+.dropdown-container:hover .dropdown-menu li {
+  transform: translateY(0);
+  opacity: 1;
+} */
+
+/* not yet, wrong assignment. this is advanced */
