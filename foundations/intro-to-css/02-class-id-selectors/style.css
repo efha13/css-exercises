@@ -11,14 +11,21 @@
 
 .odd {
     background-color: lightpink;
+    font-family: Verdana, "DejaVu Sans", sans-serif; /* all fonts in 1 line */
 }
 
-.odd.one {
+/* IF ELEMENTS HAVE SAME RULE, JUST USE ONE SELECTOR, LIKE THIS ... */
+/* .adjust-font-size {
+    font-size: 24px;
+} */
+
+
+/* .odd.one {
     font-family: Verdana;
-}
+} */
 
 .odd.three {
-    font-family: DejaVu Sans;
+    /* font-family: DejaVu Sans; */
     font-size: 24px;
 }
 
