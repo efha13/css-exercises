@@ -34,23 +34,28 @@ button {
 
 .title {
   margin: 8px auto;
+  /* TOP -> margin-bottom: 8px; */
   font-style: 16px;
   padding: 8px;
 }
 
 .content {
   margin: 8px auto;
+  /* TOP -> margin-bottom: 8px; */
   padding: 16px 8px;
 }
 
 .button-container {
   margin: 0 auto;
+  /* TOP doesn't set the margin */
   padding: 8px;
   text-align: center;
+  /* oh i'm right using text-align. LOL, such a worrywart */
 }
 
 button {
   display: block;
   margin: 0 auto;
   padding: 8px 24px;
+  /* same with TOP */
 }
