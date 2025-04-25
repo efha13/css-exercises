@@ -30,15 +30,18 @@ body {
 /* MY SOLUTION */
 .one {
   padding: 50px;
-  margin: 20px 50px;
+  margin: 20px 50px; 
+  /* TOP -> margin: 12px; */
 }
 
 .two {
   padding: 0px;
+  /* TOP -> no need for padding */
   margin-bottom: 50px;
 }
 
 .three {
   padding: 50px;
-  margin-left: 300px;
+  margin-left: auto;
+  /* TOP -> margin-left: auto; it will have max left margin */
 }
